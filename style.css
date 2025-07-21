@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    margin-left: 40%;
+    margin-top: 8%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: w;
+}
+
+.exp-tra-p {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.inc-exp-container {
+    display: flex;
+    margin-top: 10px;
+    background-color: whitesmoke;
+
+}
+
+.money-plus,
+.money-minus {
+    padding: 10px 20px;
+}
+
+.money-plus {
+    color: green;
+}
+
+.money-minus {
+    color: red;
+}
+
+.history {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-right: 5px solid;
+    font-weight: bold;
+    gap: 20px;
+}
+
+
+ul li.income {
+    border-color: green;
+    color: green;
+}
+
+ul li.expense {
+    border-color: red;
+    color: red;
+}
+
+.add-new-tra {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+input {
+    padding: 10px 8px;
+    width: 230px;
+    margin-bottom: 15px;
+}
+
+.btn-add {
+    padding: 10px;
+    background-color: dodgerblue;
+    border-style: none;
+    margin-top: 10px;
+}
+
+.btn-add:hover {
+    background-color: limegreen;
+}
